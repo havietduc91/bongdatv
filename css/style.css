@@ -1,0 +1,82 @@
+. content-bd{
+	background-color: #FFFFFF;
+	clear: both;
+    display: block;
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: 982px;
+}
+.navbar-inner{
+	background-color: #1B1B1B;
+	background-image: linear-gradient(to bottom, #222222, #111111);
+    background-repeat: repeat-x;
+    border-color: #252525;
+}
+
+.banner-soccer{
+	background: url("../images/bg_soccer.jpg") repeat scroll left top rgba(0, 0, 0, 0);
+    height: 250px;
+    position: relative;
+    z-index: -1;
+	margin-top:	-100px;
+}
+
+.navbar .nav > li > a {
+	text-shadow:none !important;
+	color:#FFF;
+	font-weight: bold;
+}
+
+.bs-docs-sidenav {
+    background-color: #FFFFFF;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    margin: 30px 0 0;
+    max-width: 228px;
+    padding: 0;
+}
+.bs-docs-sidenav > li > a {
+    border: 1px solid #E5E5E5;
+    display: block;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+}
+.bs-docs-sidenav > li:first-child > a {
+    border-radius: 6px 6px 0 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+    border-radius: 0 0 6px 6px;
+}
+.bs-docs-sidenav > .active > a {
+    border: 0 none;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1) inset, -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+    padding: 9px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+    z-index: 2;
+}
+.bs-docs-sidenav .icon-chevron-right {
+    float: right;
+    margin-right: -6px;
+    margin-top: 2px;
+    opacity: 0.25;
+}
+.bs-docs-sidenav > li > a:hover {
+    background-color: #F5F5F5;
+}
+.bs-docs-sidenav a:hover .icon-chevron-right {
+    opacity: 0.5;
+}
+.bs-docs-sidenav .active .icon-chevron-right, .bs-docs-sidenav .active a:hover .icon-chevron-right {
+    opacity: 1;
+}
+.bs-docs-sidenav.affix {
+    top: 40px;
+}
+.bs-docs-sidenav.affix-bottom {
+    bottom: 270px;
+    position: absolute;
+    top: auto;
+}
